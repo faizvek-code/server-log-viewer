@@ -1,0 +1,242 @@
+[
+  {
+    "level": "debug",
+    "message": "User authentication token validated.",
+    "resourceId": "db-node-01",
+    "timestamp": "2025-08-13T08:46:37.000Z",
+    "traceId": "lfk-emn-147",
+    "spanId": "span-220",
+    "commit": "83cdf8d",
+    "metadata": {
+      "parentResourceId": "control-panel-01"
+    }
+  },
+  {
+    "level": "info",
+    "message": "API request payload validated.",
+    "resourceId": "session-service-01",
+    "timestamp": "2025-08-11T20:36:50.000Z",
+    "traceId": "omt-naz-730",
+    "spanId": "span-148",
+    "commit": "e343832",
+    "metadata": {
+      "parentResourceId": "backend-service-02"
+    }
+  },
+  {
+    "level": "info",
+    "message": "API request timed out.",
+    "resourceId": "server-5678",
+    "timestamp": "2025-08-12T12:18:16.000Z",
+    "traceId": "zim-pzg-838",
+    "spanId": "span-257",
+    "commit": "147c8d4",
+    "metadata": {
+      "parentResourceId": "web-app-frontend-01"
+    }
+  },
+  {
+    "level": "error",
+    "message": "API request payload validated.",
+    "resourceId": "db-node-01",
+    "timestamp": "2025-08-11T22:07:15.000Z",
+    "traceId": "elu-zbl-438",
+    "spanId": "span-219",
+    "commit": "51487df",
+    "metadata": {
+      "parentResourceId": "web-app-frontend-01"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Email sent to user.",
+    "resourceId": "email-service-01",
+    "timestamp": "2025-08-13T01:27:29.000Z",
+    "traceId": "rfq-wtt-580",
+    "spanId": "span-256",
+    "commit": "ca44230",
+    "metadata": {
+      "parentResourceId": "web-app-frontend-02"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Feature flag enabled.",
+    "resourceId": "server-5678",
+    "timestamp": "2025-08-13T21:20:17.000Z",
+    "traceId": "wmk-xyg-087",
+    "spanId": "span-060",
+    "commit": "32e6cc5",
+    "metadata": {
+      "parentResourceId": "auth-service-01"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Disk usage exceeded 80%.",
+    "resourceId": "server-5678",
+    "timestamp": "2025-08-09T06:19:42.000Z",
+    "traceId": "joc-its-396",
+    "spanId": "span-703",
+    "commit": "c321a7a",
+    "metadata": {
+      "parentResourceId": "cache-cluster-01"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache cleared successfully.",
+    "resourceId": "config-service-01",
+    "timestamp": "2025-08-11T14:29:47.000Z",
+    "traceId": "ryc-wzh-638",
+    "spanId": "span-490",
+    "commit": "7b4b882",
+    "metadata": {
+      "parentResourceId": "auth-service-01"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "API deprecation warning.",
+    "resourceId": "cache-server-03",
+    "timestamp": "2025-08-08T15:13:50.000Z",
+    "traceId": "xiq-uez-690",
+    "spanId": "span-377",
+    "commit": "8fe317f",
+    "metadata": {
+      "parentResourceId": "server-5678"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Session token refreshed.",
+    "resourceId": "storage-node-04",
+    "timestamp": "2025-08-12T18:43:29.000Z",
+    "traceId": "kkj-jpz-754",
+    "spanId": "span-136",
+    "commit": "fa57f72",
+    "metadata": {
+      "parentResourceId": "web-app-frontend-01"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Disk usage exceeded 80%.",
+    "resourceId": "service-delay-01",
+    "timestamp": "2025-08-12T03:05:47.000Z",
+    "traceId": "ulx-jlr-081",
+    "spanId": "span-454",
+    "commit": "4f12d6a",
+    "metadata": {
+      "parentResourceId": "api-gateway-01"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Service response delayed.",
+    "resourceId": "file-service-01",
+    "timestamp": "2025-08-09T15:17:00.000Z",
+    "traceId": "gqc-bki-102",
+    "spanId": "span-804",
+    "commit": "3fef980",
+    "metadata": {
+      "parentResourceId": "api-gateway-01"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "API request payload validated.",
+    "resourceId": "payment-service-01",
+    "timestamp": "2025-08-09T01:38:24.000Z",
+    "traceId": "gqn-tno-232",
+    "spanId": "span-500",
+    "commit": "bf54373",
+    "metadata": {
+      "parentResourceId": "load-balancer-01"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Feature flag enabled.",
+    "resourceId": "auth-service-01",
+    "timestamp": "2025-08-12T06:27:29.000Z",
+    "traceId": "mhw-ely-591",
+    "spanId": "span-456",
+    "commit": "cc04d63",
+    "metadata": {
+      "parentResourceId": "admin-panel-01"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Configuration updated.",
+    "resourceId": "storage-node-04",
+    "timestamp": "2025-08-12T11:59:06.000Z",
+    "traceId": "svx-fud-417",
+    "spanId": "span-648",
+    "commit": "c48e0cf",
+    "metadata": {
+      "parentResourceId": "api-gateway-01"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "User authentication token validated.",
+    "resourceId": "db-node-01",
+    "timestamp": "2025-08-13T09:33:53.000Z",
+    "traceId": "uzs-abd-930",
+    "spanId": "span-534",
+    "commit": "33f76a0",
+    "metadata": {
+      "parentResourceId": "checkout-service-02"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Service response delayed.",
+    "resourceId": "server-5678",
+    "timestamp": "2025-08-10T14:11:11.000Z",
+    "traceId": "tmy-ozy-852",
+    "spanId": "span-476",
+    "commit": "0f2266b",
+    "metadata": {
+      "parentResourceId": "control-panel-01"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Temporary cache entry created.",
+    "resourceId": "api-gateway-01",
+    "timestamp": "2025-08-09T21:55:42.000Z",
+    "traceId": "znj-ikm-361",
+    "spanId": "span-438",
+    "commit": "5665984",
+    "metadata": {
+      "parentResourceId": "server-5678"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Session token refreshed.",
+    "resourceId": "db-node-01",
+    "timestamp": "2025-08-15T03:10:42.000Z",
+    "traceId": "szh-qbk-142",
+    "spanId": "span-446",
+    "commit": "e1eeffa",
+    "metadata": {
+      "parentResourceId": "api-gateway-01"
+    }
+  },
+  {
+    "level": "info",
+    "message": "API request payload validated.",
+    "resourceId": "scheduler-01",
+    "timestamp": "2025-08-10T13:39:44.000Z",
+    "traceId": "qpw-out-690",
+    "spanId": "span-699",
+    "commit": "4fd3a52",
+    "metadata": {
+      "parentResourceId": "auth-service-01"
+    }
+  }
+]
