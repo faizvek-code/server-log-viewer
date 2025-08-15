@@ -1,4 +1,3 @@
-// LogsPage.jsx
 import React, { useState, useEffect } from "react";
 
 const initialFilters = {
@@ -8,14 +7,15 @@ const initialFilters = {
     until: "",
     keyword: ""
 }
+
 export default function LogsPage() {
   const [logs, setLogs] = useState([]);
   const [filters, setFilters] = useState(initialFilters);
 
-  const fetchLogs = async () => {
+  const fetchLogs = async (appliedFilters) => {
      const params = new URLSearchParams();
-    Object.keys(filters).forEach(key => {
-      if (filters[key]) params.append(key, filters[key]);
+    Object.keys(appliedFilters).forEach(key => {
+      if (appliedFilters[key]) params.append(key, appliedFilters[key]);
     });
 
     fetch(`http://localhost:3001/logs?${params}`)
@@ -25,11 +25,12 @@ export default function LogsPage() {
   }
 
   const clearLogs = () => {
-    setFilters(initialFilters)
+    setFilters(initialFilters);
+    fetchLogs(initialFilters);
   }
   
   useEffect(() => {
-   fetchLogs()
+   fetchLogs(initialFilters)
   }, []);
 
   const getLevelColor = (level) => {
@@ -107,7 +108,7 @@ export default function LogsPage() {
         <div>
           <button
             className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-            onClick={fetchLogs}
+            onClick={()=>fetchLogs(filters)}
           >
             Filter Logs
           </button>
